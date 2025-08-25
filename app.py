@@ -1,7 +1,11 @@
 import streamlit as st
 import pickle
 import pandas as pd
+
+
 cpipeline = pickle.load(open('svm_classification_model.pkl', 'rb'))
+
+
 
 st.title('🚢 Titanic Survival Prediction: Dead or Alive')
 st.write("Enter the details below to predict survival:")
