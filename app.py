@@ -5,6 +5,11 @@ import pandas as pd
 
 cpipeline = pickle.load(open('svm_classification_model.pkl', 'rb'))
 
+import os
+import streamlit as st
+
+st.write("Current folder:", os.getcwd())
+st.write("Files here:", os.listdir())
 
 
 st.title('🚢 Titanic Survival Prediction: Dead or Alive')
