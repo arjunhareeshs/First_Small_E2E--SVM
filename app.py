@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 
-cpipeline = pickle.load(open(r'C:\SVM and Decision trees\svm_classification_model.pkl', 'rb'))
+cpipeline = pickle.load(open('svm_classification_model.pkl', 'rb'))
 
 
 
